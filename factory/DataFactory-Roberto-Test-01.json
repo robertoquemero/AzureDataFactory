@@ -1,0 +1,9 @@
+{
+	"name": "DataFactory-Roberto-Test-01",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b229fa8d-a3a5-49c0-9d0f-de7096bb3b60",
+		"tenantId": "c8a05933-186f-4d4a-ad2e-1ff5dc8ae370"
+	}
+}
