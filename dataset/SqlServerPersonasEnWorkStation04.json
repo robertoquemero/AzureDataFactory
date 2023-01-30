@@ -1,0 +1,35 @@
+{
+	"name": "SqlServerPersonasEnWorkStation04",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServerWorkstation04",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Apellido",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Nombre",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Edad",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Personas"
+		}
+	}
+}
